@@ -1,6 +1,7 @@
 -- Farewell Infortality.
 -- Version: 2.82
 -- Instances:
+largeText = game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/LongText.txt")
 local cmdspam = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Frame = Instance.new("ImageLabel")
@@ -244,29 +245,7 @@ function SCRIPT_NCUO80_FAKESCRIPT() -- lagg.LocalScript
         wait ()
         if BoolValue == true then
 	        wait()
-            game.Players:Chat("ff " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("fire " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("bonfire " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("smoke " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("sparkles/" .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("sparkles " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("jail " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("unpunish " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("unblind " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("clip " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("thaw " .. script.Parent.Parent.plname.Text)
-	        wait()
-            game.Players:Chat("ungear " .. script.Parent.Parent.plname.Text)
+            game.Players:Chat("pm " .. script.Parent.Parent.plname.Text.." "..largeText)
         end
     end
 
