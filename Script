@@ -1,7 +1,7 @@
 -- Farewell Infortality.
 -- Version: 2.82
 -- Instances:
-largeText = game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/LongText.txt")
+largeText = game:HttpGetAsync("https://raw.githubusercontent.com/DisBlake/Blacke/master/LongText.txt")
 local cmdspam = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Frame = Instance.new("ImageLabel")
